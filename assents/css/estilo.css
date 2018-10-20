@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../imag/predio-fundo.jpg);
+    background-size: cover;
+}
+.logo > div > img{
+    width: 5%;
+}
+.logo{
+    text-align: center;
+}
+body > div > ul > li{
+    font-family: 'Pacifico', cursive;
+    display: inline;
+}
