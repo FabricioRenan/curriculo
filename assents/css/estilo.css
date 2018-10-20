@@ -1,16 +1,39 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../imag/predio-fundo.jpg);
-    background-size: cover;
+    background: #483D8B url(../imag/predio-fundo.jpg) no-repeat;
+    background-size: cover;s
 }
-.logo > div > img{
-    width: 5%;
-}
+
 .logo{
     text-align: center;
 }
-body > div > ul > li{
-    font-family: 'Pacifico', cursive;
+
+.logo > div > img{
+    width: 5%;
+}
+
+.logo > h1, ul > li{
+    font-family: 'Lato', sans-serif;
     display: inline;
+    text-shadow: 2px 2px 5px #FFFFFF ;
+}
+
+.imagem-fabricio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imagem-fabricio > img{
+    border-radius: 60px;
+    width: 221px;
+    height: 282px;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+main{
+    padding: 60px;
 }
