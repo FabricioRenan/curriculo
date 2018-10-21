@@ -1,39 +1,81 @@
 body{
     margin: 0;
     padding: 0;
-    background: #483D8B url(../imag/predio-fundo.jpg) no-repeat;
-    background-size: cover;s
+    background: #483D8B url(../imag/fogos-fundo.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .logo{
     text-align: center;
-}
-
-.logo > div > img{
-    width: 5%;
-}
-
-.logo > h1, ul > li{
-    font-family: 'Lato', sans-serif;
-    display: inline;
-    text-shadow: 2px 2px 5px #FFFFFF ;
-}
-
-.imagem-fabricio{
+    padding: 20px;
+    color: aliceblue;
+    background-color: black;
+    opacity: 0.7;
+    padding-bottom: 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+
 }
-.imagem-fabricio > img{
-    border-radius: 60px;
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo > h1, ul > li{
+    display: inline;
+    padding: 20px;
+    margin: 0;   
+    font-family: 'Chakra Petch', sans-serif; 
+}
+main{
+    padding: 60px 20px 60px 20px;
+}
+.nome{
+    padding: 0px 0px 0px 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nome img{
+    border-radius: 1000px;
     width: 221px;
     height: 282px;
     position: relative;
     align-items: center;
     display: flex;
+    justify-content: space-between;
+    justify-items: left;
+    flex-wrap: wrap;
 }
-
-main{
-    padding: 60px;
+.nome h2{
+    font-family: 'Roboto Mono', monospace;
+}
+#divisoes{
+    background-color: white;
+    filter:alpha(opacity=70);
+    opacity: 0.7;
+    -moz-opacity:0.7;
+    -webkit-opacity:0.7;
+    border-radius: 10px;
+}
+section{
+    filter: brightness(3px);
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: justify;
+}
+.objetivo{
+    float: left;
+    width: 30%;
+}
+.habilidades{
+    float: left;
+    width: 30%;
+    margin: 0px 0px 0px 15px;
+}
+.escolaridade{
+    float: left;
+    width: 30%;
+    margin: 0px 10px 0px 15px;
 }
